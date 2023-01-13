@@ -1,0 +1,938 @@
+body {
+  margin: 0;
+}
+
+.btn-red {
+  border-radius: 5px;
+  width: 150px;
+  height: 50px;
+  border: solid 3px #ff4d4d;
+  background-color: #FF0000;
+}
+
+.card-red-xs {
+  display: block;
+  border: solid 3px white;
+  border-radius: 5px;
+  width: 15%;
+  background-color: #FF0000;
+}
+
+.card-red-xs-xs {
+  display: block;
+  border: solid 3px white;
+  border-radius: 5px;
+  width: 15%;
+  background-color: #FF0000;
+  height: 15vh;
+}
+
+.card-red-xs-sm {
+  display: block;
+  border: solid 3px white;
+  border-radius: 5px;
+  width: 15%;
+  background-color: #FF0000;
+  height: 25vh;
+}
+
+.card-red-xs-md {
+  display: block;
+  border: solid 3px white;
+  border-radius: 5px;
+  width: 15%;
+  background-color: #FF0000;
+  height: 50vh;
+}
+
+.card-red-xs-lg {
+  display: block;
+  border: solid 3px white;
+  border-radius: 5px;
+  width: 15%;
+  background-color: #FF0000;
+  height: 75vh;
+}
+
+.card-red-xs-xl {
+  display: block;
+  border: solid 3px white;
+  border-radius: 5px;
+  width: 15%;
+  background-color: #FF0000;
+  height: 100vh;
+}
+
+.card-red-sm {
+  display: block;
+  border: solid 3px white;
+  border-radius: 5px;
+  width: 25%;
+  background-color: #FF0000;
+}
+
+.card-red-sm-xs {
+  display: block;
+  border: solid 3px white;
+  border-radius: 5px;
+  width: 25%;
+  background-color: #FF0000;
+  height: 15vh;
+}
+
+.card-red-sm-sm {
+  display: block;
+  border: solid 3px white;
+  border-radius: 5px;
+  width: 25%;
+  background-color: #FF0000;
+  height: 25vh;
+}
+
+.card-red-sm-md {
+  display: block;
+  border: solid 3px white;
+  border-radius: 5px;
+  width: 25%;
+  background-color: #FF0000;
+  height: 50vh;
+}
+
+.card-red-sm-lg {
+  display: block;
+  border: solid 3px white;
+  border-radius: 5px;
+  width: 25%;
+  background-color: #FF0000;
+  height: 75vh;
+}
+
+.card-red-sm-xl {
+  display: block;
+  border: solid 3px white;
+  border-radius: 5px;
+  width: 25%;
+  background-color: #FF0000;
+  height: 100vh;
+}
+
+.card-red-md {
+  display: block;
+  border: solid 3px white;
+  border-radius: 5px;
+  width: 50%;
+  background-color: #FF0000;
+}
+
+.card-red-md-xs {
+  display: block;
+  border: solid 3px white;
+  border-radius: 5px;
+  width: 50%;
+  background-color: #FF0000;
+  height: 15vh;
+}
+
+.card-red-md-sm {
+  display: block;
+  border: solid 3px white;
+  border-radius: 5px;
+  width: 50%;
+  background-color: #FF0000;
+  height: 25vh;
+}
+
+.card-red-md-md {
+  display: block;
+  border: solid 3px white;
+  border-radius: 5px;
+  width: 50%;
+  background-color: #FF0000;
+  height: 50vh;
+}
+
+.card-red-md-lg {
+  display: block;
+  border: solid 3px white;
+  border-radius: 5px;
+  width: 50%;
+  background-color: #FF0000;
+  height: 75vh;
+}
+
+.card-red-md-xl {
+  display: block;
+  border: solid 3px white;
+  border-radius: 5px;
+  width: 50%;
+  background-color: #FF0000;
+  height: 100vh;
+}
+
+.card-red-lg {
+  display: block;
+  border: solid 3px white;
+  border-radius: 5px;
+  width: 75%;
+  background-color: #FF0000;
+}
+
+.card-red-lg-xs {
+  display: block;
+  border: solid 3px white;
+  border-radius: 5px;
+  width: 75%;
+  background-color: #FF0000;
+  height: 15vh;
+}
+
+.card-red-lg-sm {
+  display: block;
+  border: solid 3px white;
+  border-radius: 5px;
+  width: 75%;
+  background-color: #FF0000;
+  height: 25vh;
+}
+
+.card-red-lg-md {
+  display: block;
+  border: solid 3px white;
+  border-radius: 5px;
+  width: 75%;
+  background-color: #FF0000;
+  height: 50vh;
+}
+
+.card-red-lg-lg {
+  display: block;
+  border: solid 3px white;
+  border-radius: 5px;
+  width: 75%;
+  background-color: #FF0000;
+  height: 75vh;
+}
+
+.card-red-lg-xl {
+  display: block;
+  border: solid 3px white;
+  border-radius: 5px;
+  width: 75%;
+  background-color: #FF0000;
+  height: 100vh;
+}
+
+.card-red-xl {
+  display: block;
+  border: solid 3px white;
+  border-radius: 5px;
+  width: 100%;
+  background-color: #FF0000;
+}
+
+.card-red-xl-xs {
+  display: block;
+  border: solid 3px white;
+  border-radius: 5px;
+  width: 100%;
+  background-color: #FF0000;
+  height: 15vh;
+}
+
+.card-red-xl-sm {
+  display: block;
+  border: solid 3px white;
+  border-radius: 5px;
+  width: 100%;
+  background-color: #FF0000;
+  height: 25vh;
+}
+
+.card-red-xl-md {
+  display: block;
+  border: solid 3px white;
+  border-radius: 5px;
+  width: 100%;
+  background-color: #FF0000;
+  height: 50vh;
+}
+
+.card-red-xl-lg {
+  display: block;
+  border: solid 3px white;
+  border-radius: 5px;
+  width: 100%;
+  background-color: #FF0000;
+  height: 75vh;
+}
+
+.card-red-xl-xl {
+  display: block;
+  border: solid 3px white;
+  border-radius: 5px;
+  width: 100%;
+  background-color: #FF0000;
+  height: 100vh;
+}
+
+.btn-green {
+  border-radius: 5px;
+  width: 150px;
+  height: 50px;
+  border: solid 3px #4dff4d;
+  background-color: #00FF00;
+}
+
+.card-green-xs {
+  display: block;
+  border: solid 3px white;
+  border-radius: 5px;
+  width: 15%;
+  background-color: #00FF00;
+}
+
+.card-green-xs-xs {
+  display: block;
+  border: solid 3px white;
+  border-radius: 5px;
+  width: 15%;
+  background-color: #00FF00;
+  height: 15vh;
+}
+
+.card-green-xs-sm {
+  display: block;
+  border: solid 3px white;
+  border-radius: 5px;
+  width: 15%;
+  background-color: #00FF00;
+  height: 25vh;
+}
+
+.card-green-xs-md {
+  display: block;
+  border: solid 3px white;
+  border-radius: 5px;
+  width: 15%;
+  background-color: #00FF00;
+  height: 50vh;
+}
+
+.card-green-xs-lg {
+  display: block;
+  border: solid 3px white;
+  border-radius: 5px;
+  width: 15%;
+  background-color: #00FF00;
+  height: 75vh;
+}
+
+.card-green-xs-xl {
+  display: block;
+  border: solid 3px white;
+  border-radius: 5px;
+  width: 15%;
+  background-color: #00FF00;
+  height: 100vh;
+}
+
+.card-green-sm {
+  display: block;
+  border: solid 3px white;
+  border-radius: 5px;
+  width: 25%;
+  background-color: #00FF00;
+}
+
+.card-green-sm-xs {
+  display: block;
+  border: solid 3px white;
+  border-radius: 5px;
+  width: 25%;
+  background-color: #00FF00;
+  height: 15vh;
+}
+
+.card-green-sm-sm {
+  display: block;
+  border: solid 3px white;
+  border-radius: 5px;
+  width: 25%;
+  background-color: #00FF00;
+  height: 25vh;
+}
+
+.card-green-sm-md {
+  display: block;
+  border: solid 3px white;
+  border-radius: 5px;
+  width: 25%;
+  background-color: #00FF00;
+  height: 50vh;
+}
+
+.card-green-sm-lg {
+  display: block;
+  border: solid 3px white;
+  border-radius: 5px;
+  width: 25%;
+  background-color: #00FF00;
+  height: 75vh;
+}
+
+.card-green-sm-xl {
+  display: block;
+  border: solid 3px white;
+  border-radius: 5px;
+  width: 25%;
+  background-color: #00FF00;
+  height: 100vh;
+}
+
+.card-green-md {
+  display: block;
+  border: solid 3px white;
+  border-radius: 5px;
+  width: 50%;
+  background-color: #00FF00;
+}
+
+.card-green-md-xs {
+  display: block;
+  border: solid 3px white;
+  border-radius: 5px;
+  width: 50%;
+  background-color: #00FF00;
+  height: 15vh;
+}
+
+.card-green-md-sm {
+  display: block;
+  border: solid 3px white;
+  border-radius: 5px;
+  width: 50%;
+  background-color: #00FF00;
+  height: 25vh;
+}
+
+.card-green-md-md {
+  display: block;
+  border: solid 3px white;
+  border-radius: 5px;
+  width: 50%;
+  background-color: #00FF00;
+  height: 50vh;
+}
+
+.card-green-md-lg {
+  display: block;
+  border: solid 3px white;
+  border-radius: 5px;
+  width: 50%;
+  background-color: #00FF00;
+  height: 75vh;
+}
+
+.card-green-md-xl {
+  display: block;
+  border: solid 3px white;
+  border-radius: 5px;
+  width: 50%;
+  background-color: #00FF00;
+  height: 100vh;
+}
+
+.card-green-lg {
+  display: block;
+  border: solid 3px white;
+  border-radius: 5px;
+  width: 75%;
+  background-color: #00FF00;
+}
+
+.card-green-lg-xs {
+  display: block;
+  border: solid 3px white;
+  border-radius: 5px;
+  width: 75%;
+  background-color: #00FF00;
+  height: 15vh;
+}
+
+.card-green-lg-sm {
+  display: block;
+  border: solid 3px white;
+  border-radius: 5px;
+  width: 75%;
+  background-color: #00FF00;
+  height: 25vh;
+}
+
+.card-green-lg-md {
+  display: block;
+  border: solid 3px white;
+  border-radius: 5px;
+  width: 75%;
+  background-color: #00FF00;
+  height: 50vh;
+}
+
+.card-green-lg-lg {
+  display: block;
+  border: solid 3px white;
+  border-radius: 5px;
+  width: 75%;
+  background-color: #00FF00;
+  height: 75vh;
+}
+
+.card-green-lg-xl {
+  display: block;
+  border: solid 3px white;
+  border-radius: 5px;
+  width: 75%;
+  background-color: #00FF00;
+  height: 100vh;
+}
+
+.card-green-xl {
+  display: block;
+  border: solid 3px white;
+  border-radius: 5px;
+  width: 100%;
+  background-color: #00FF00;
+}
+
+.card-green-xl-xs {
+  display: block;
+  border: solid 3px white;
+  border-radius: 5px;
+  width: 100%;
+  background-color: #00FF00;
+  height: 15vh;
+}
+
+.card-green-xl-sm {
+  display: block;
+  border: solid 3px white;
+  border-radius: 5px;
+  width: 100%;
+  background-color: #00FF00;
+  height: 25vh;
+}
+
+.card-green-xl-md {
+  display: block;
+  border: solid 3px white;
+  border-radius: 5px;
+  width: 100%;
+  background-color: #00FF00;
+  height: 50vh;
+}
+
+.card-green-xl-lg {
+  display: block;
+  border: solid 3px white;
+  border-radius: 5px;
+  width: 100%;
+  background-color: #00FF00;
+  height: 75vh;
+}
+
+.card-green-xl-xl {
+  display: block;
+  border: solid 3px white;
+  border-radius: 5px;
+  width: 100%;
+  background-color: #00FF00;
+  height: 100vh;
+}
+
+.btn-blue {
+  border-radius: 5px;
+  width: 150px;
+  height: 50px;
+  border: solid 3px #4d4dff;
+  background-color: #0000FF;
+}
+
+.card-blue-xs {
+  display: block;
+  border: solid 3px white;
+  border-radius: 5px;
+  width: 15%;
+  background-color: #0000FF;
+}
+
+.card-blue-xs-xs {
+  display: block;
+  border: solid 3px white;
+  border-radius: 5px;
+  width: 15%;
+  background-color: #0000FF;
+  height: 15vh;
+}
+
+.card-blue-xs-sm {
+  display: block;
+  border: solid 3px white;
+  border-radius: 5px;
+  width: 15%;
+  background-color: #0000FF;
+  height: 25vh;
+}
+
+.card-blue-xs-md {
+  display: block;
+  border: solid 3px white;
+  border-radius: 5px;
+  width: 15%;
+  background-color: #0000FF;
+  height: 50vh;
+}
+
+.card-blue-xs-lg {
+  display: block;
+  border: solid 3px white;
+  border-radius: 5px;
+  width: 15%;
+  background-color: #0000FF;
+  height: 75vh;
+}
+
+.card-blue-xs-xl {
+  display: block;
+  border: solid 3px white;
+  border-radius: 5px;
+  width: 15%;
+  background-color: #0000FF;
+  height: 100vh;
+}
+
+.card-blue-sm {
+  display: block;
+  border: solid 3px white;
+  border-radius: 5px;
+  width: 25%;
+  background-color: #0000FF;
+}
+
+.card-blue-sm-xs {
+  display: block;
+  border: solid 3px white;
+  border-radius: 5px;
+  width: 25%;
+  background-color: #0000FF;
+  height: 15vh;
+}
+
+.card-blue-sm-sm {
+  display: block;
+  border: solid 3px white;
+  border-radius: 5px;
+  width: 25%;
+  background-color: #0000FF;
+  height: 25vh;
+}
+
+.card-blue-sm-md {
+  display: block;
+  border: solid 3px white;
+  border-radius: 5px;
+  width: 25%;
+  background-color: #0000FF;
+  height: 50vh;
+}
+
+.card-blue-sm-lg {
+  display: block;
+  border: solid 3px white;
+  border-radius: 5px;
+  width: 25%;
+  background-color: #0000FF;
+  height: 75vh;
+}
+
+.card-blue-sm-xl {
+  display: block;
+  border: solid 3px white;
+  border-radius: 5px;
+  width: 25%;
+  background-color: #0000FF;
+  height: 100vh;
+}
+
+.card-blue-md {
+  display: block;
+  border: solid 3px white;
+  border-radius: 5px;
+  width: 50%;
+  background-color: #0000FF;
+}
+
+.card-blue-md-xs {
+  display: block;
+  border: solid 3px white;
+  border-radius: 5px;
+  width: 50%;
+  background-color: #0000FF;
+  height: 15vh;
+}
+
+.card-blue-md-sm {
+  display: block;
+  border: solid 3px white;
+  border-radius: 5px;
+  width: 50%;
+  background-color: #0000FF;
+  height: 25vh;
+}
+
+.card-blue-md-md {
+  display: block;
+  border: solid 3px white;
+  border-radius: 5px;
+  width: 50%;
+  background-color: #0000FF;
+  height: 50vh;
+}
+
+.card-blue-md-lg {
+  display: block;
+  border: solid 3px white;
+  border-radius: 5px;
+  width: 50%;
+  background-color: #0000FF;
+  height: 75vh;
+}
+
+.card-blue-md-xl {
+  display: block;
+  border: solid 3px white;
+  border-radius: 5px;
+  width: 50%;
+  background-color: #0000FF;
+  height: 100vh;
+}
+
+.card-blue-lg {
+  display: block;
+  border: solid 3px white;
+  border-radius: 5px;
+  width: 75%;
+  background-color: #0000FF;
+}
+
+.card-blue-lg-xs {
+  display: block;
+  border: solid 3px white;
+  border-radius: 5px;
+  width: 75%;
+  background-color: #0000FF;
+  height: 15vh;
+}
+
+.card-blue-lg-sm {
+  display: block;
+  border: solid 3px white;
+  border-radius: 5px;
+  width: 75%;
+  background-color: #0000FF;
+  height: 25vh;
+}
+
+.card-blue-lg-md {
+  display: block;
+  border: solid 3px white;
+  border-radius: 5px;
+  width: 75%;
+  background-color: #0000FF;
+  height: 50vh;
+}
+
+.card-blue-lg-lg {
+  display: block;
+  border: solid 3px white;
+  border-radius: 5px;
+  width: 75%;
+  background-color: #0000FF;
+  height: 75vh;
+}
+
+.card-blue-lg-xl {
+  display: block;
+  border: solid 3px white;
+  border-radius: 5px;
+  width: 75%;
+  background-color: #0000FF;
+  height: 100vh;
+}
+
+.card-blue-xl {
+  display: block;
+  border: solid 3px white;
+  border-radius: 5px;
+  width: 100%;
+  background-color: #0000FF;
+}
+
+.card-blue-xl-xs {
+  display: block;
+  border: solid 3px white;
+  border-radius: 5px;
+  width: 100%;
+  background-color: #0000FF;
+  height: 15vh;
+}
+
+.card-blue-xl-sm {
+  display: block;
+  border: solid 3px white;
+  border-radius: 5px;
+  width: 100%;
+  background-color: #0000FF;
+  height: 25vh;
+}
+
+.card-blue-xl-md {
+  display: block;
+  border: solid 3px white;
+  border-radius: 5px;
+  width: 100%;
+  background-color: #0000FF;
+  height: 50vh;
+}
+
+.card-blue-xl-lg {
+  display: block;
+  border: solid 3px white;
+  border-radius: 5px;
+  width: 100%;
+  background-color: #0000FF;
+  height: 75vh;
+}
+
+.card-blue-xl-xl {
+  display: block;
+  border: solid 3px white;
+  border-radius: 5px;
+  width: 100%;
+  background-color: #0000FF;
+  height: 100vh;
+}
+
+.f-l {
+  float: left;
+}
+
+.f-r {
+  float: right;
+}
+
+.f-t {
+  float: top;
+}
+
+.f-b {
+  float: bottom;
+}
+
+.xs-1 {
+  width: 7.5%;
+}
+
+.xs-2 {
+  width: 15%;
+}
+
+.xs-3 {
+  width: 22.5%;
+}
+
+.xs-4 {
+  width: 30%;
+}
+
+.xs-5 {
+  width: 37.5%;
+}
+
+.sm-1 {
+  width: 12.5%;
+}
+
+.sm-2 {
+  width: 25%;
+}
+
+.sm-3 {
+  width: 37.5%;
+}
+
+.sm-4 {
+  width: 50%;
+}
+
+.sm-5 {
+  width: 62.5%;
+}
+
+.md-1 {
+  width: 25%;
+}
+
+.md-2 {
+  width: 50%;
+}
+
+.md-3 {
+  width: 75%;
+}
+
+.md-4 {
+  width: 100%;
+}
+
+.md-5 {
+  width: 125%;
+}
+
+.lg-1 {
+  width: 37.5%;
+}
+
+.lg-2 {
+  width: 75%;
+}
+
+.lg-3 {
+  width: 112.5%;
+}
+
+.lg-4 {
+  width: 150%;
+}
+
+.lg-5 {
+  width: 187.5%;
+}
+
+.xl-1 {
+  width: 50%;
+}
+
+.xl-2 {
+  width: 100%;
+}
+
+.xl-3 {
+  width: 150%;
+}
+
+.xl-4 {
+  width: 200%;
+}
+
+.xl-5 {
+  width: 250%;
+}/*# sourceMappingURL=styles.css.map */

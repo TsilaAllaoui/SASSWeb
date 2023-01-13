@@ -1,0 +1,23 @@
+@use "sass:math";
+
+@each $key, $val in $positions
+{
+    @if ($key != center)
+    {
+        .f-#{$key}
+        {
+            float: $val;
+        }
+    }
+}
+
+@each $key, $val in $sizes
+{
+    @for $i from 1 through 5
+    {
+        .#{$key}-#{$i}
+        {
+            width: $val * math.div($i , 2);
+        }
+    } 
+}
