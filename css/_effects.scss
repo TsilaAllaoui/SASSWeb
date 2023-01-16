@@ -1,74 +1,100 @@
-@use "sass:math";
-
-@each $key, $val in $positions
-{
-    @if ($key != center)
-    {
-        .f-#{$key}
-        {
-            float: $val;
-        }
-    }
-
-    @for $i from 1 through 10
-    {
-        .m-#{$key}-#{$i}
-        {
-            $v: #{$i}px;
-            @if ($i != 1)
-            {
-                $v: #{$i * 10}px;
-            } 
-
-            @if ($val == right)
-            {
-                margin: 0 $v 0 0;
-            }
-            @else if ($val == bottom)
-            {
-                margin: 0 0 $v 0;
-            }
-            @else if ($val == top)
-            {
-                margin: $v 0 0 0;
-            }
-            @else if ($val == left)
-            {
-                margin: 0 0 0 $v;
-            }
-        }
-
-        .p-#{$key}-#{$i}
-        {
-            $v: percentage($i * 5 / 100);
-
-            @if ($val == right)
-            {
-                padding-right: $v;
-            }
-            @else if ($val == bottom)
-            {
-                padding-bottom: $v;
-            }
-            @else if ($val == top)
-            {
-                padding-top: $v;
-            }
-            @else if ($val == left)
-            {
-                padding-left: $v;
-            }
-        }
-    }
+body {
+  background-color: $backgroundColor;
+  height: 100vh;
+  max-width: 480px;
+  margin: auto;
 }
 
-@each $key, $val in $sizes
+.block {
+  display: flex;
+  justify-content: center;
+
+  h1 {
+    color: $mint;
+  }
+
+  h2 {
+    color: white;
+  }
+}
+
+.form
 {
-    @for $i from 1 through 5
-    {
-        .#{$key}-#{$i}
-        {
-            width: $val * math.div($i , 2);
-        }
-    } 
+    margin-bottom: 25px;
+}
+
+.input {
+  display: flex;
+  justify-content: center;
+  input {
+    width: 75%;
+    background-color: grey;
+    border: solid 3px $mint;
+    border-radius: 5px;
+    height: 30px;
+  }
+}
+
+.btn {
+  display: flex;
+  justify-content: flex-end;
+  width: 75%;
+  margin: auto;
+
+  button {
+    background-color: $blue;
+    border-radius: 5px;
+    width: 75px;
+    height: 30px;
+    color: white;
+  }
+}
+
+.list {
+  margin-top: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  .todo {
+    display: flex;
+    width: 75%;
+    height: 35px;
+    border: solid 2px white;
+    border-radius: 5px;
+
+    .start {
+      display: flex;
+      margin-right: 0;
+      p {
+        margin-right: 0;
+        margin-top: 8px;
+        color: white;
+        padding: 0 5px;
+      }
+
+      img {
+        width: 25px;
+        height: 25px;
+        margin-right: 0;
+        margin-top: 5px;      
+        padding: 0 5px;
+      }
+    }
+  }
+}
+
+.end {
+  display: flex;
+  justify-content: flex-end;
+  margin-left: auto;
+  margin-right: 15px;
+
+  button
+  {
+    margin-top: 5px;
+    margin-right: 5px;
+
+    width: 25px;
+    height: 25px;
+  }
 }
