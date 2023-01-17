@@ -1,46 +1,145 @@
-@mixin btn($color)
-{
-    border-radius: $border-radius;
-    width: 150px;
-    height: 50px;
-    border: solid $border-size lighten($color, 15%)
+@font-face {
+  font-family: "Roboto-Regular";
+  src: url("/assets/fonts/Roboto-Regular.woff") format("woff");
 }
 
-@mixin card-base($color: grey, $size: 100%)
+body
 {
-    border: solid $border-size lighten($color, 75%);
-    border-radius: $border-radius;
-    width: $size;
-    background-color: $color
+    background-color: $darkerPrimary;
 }
 
-@each $key, $val in $colors
-{
-    .btn-#{$key}
+.navbar {
+  background-color: $primary;
+  height: 44px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+
+  .divider
+  {
+    background-color: $darkerPrimary;
+    margin: 0 -15px;
+    border: solid 2px $darkerPrimary;
+    height: 70%;
+  }
+
+  a{
+    color: white;
+    text-decoration: none;
+    height: 44px;
+    font-family: "Roboto-Regular";
+    text-align: center;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+
+    &:hover
     {
-        @include btn($val);
-        background-color: $val;
+        border-bottom: solid 3px white;
+        transition: all .1s ease-in-out 0s;
     }
 
-    @each $k, $v in $sizes
+    .logo
     {
-        .card-#{$key}-#{$k}
+        width: 35px;
+        height: 35px;
+    }
+
+    .patreon
+    {
+        width: 120px;
+        margin-left: 10px;
+        &:hover
         {
-            display: block;
-            @include card-base( $val, $v);
+            border-bottom: solid 3px $primary;
+        }
+    }
+
+    .settings
+    {
+        width: 45px;
+        height: 45px;
+    }
+  }
+}
+
+.infos
+{
+    color: white;
+    font-family: "Roboto-Regular";
+    margin-top: 15%;
+    margin-left: 10%;
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    height: 500px;
+
+    background-image: url("/assets/images/hero-main.png");
+    background-size: 50%;
+    background-position: 75% 5%;
+    background-repeat: no-repeat;
+
+    h1
+    {
+        font-size: 50px;
+    }
+
+    h2
+    {
+        font-size: medium;
+        font-weight: 50;
+    }
+
+    .dowload-btn
+    {
+        width: 225px;
+        height: 50px;
+        border-radius: 25px;
+        font-family: "Roboto-Regular";
+        font-size: larger;
+        font-weight: bolder;
+        color: black;
+        display: flex;
+        align-items: center;
+        background-color: white;
+        border: none;
+        justify-content: space-around;
+
+        .os
+        {
+            width: 25px;
+            height: 25px;
+            margin: 0 5px;
         }
 
-        @each $_k, $_v in $sizes
+        .arch
         {
-            .card-#{$key}-#{$k}-#{$_k}
+            width: 55px;
+            height: 30px;
+            background-color: $highgreen;
+            border-radius: 25px;
+            color: white;
+            text-align: center;
+            margin: 0 5px;
+            padding: 5px 8px 0 8px;
+        }
+
+        &:hover
+        {
+            background-color: $highgreen;
+            color: white;
+            transition: background-color 500ms;
+            .arch
             {
-                display: block;
-                @include card-base( $val, $v);
-                height: ($_v / 100%) * 100vh;
+                background-color: white;
+                color: $highgreen;
+                transition: background-color 50ms;
             }
         }
     }
+
 }
-
-
-

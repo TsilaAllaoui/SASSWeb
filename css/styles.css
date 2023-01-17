@@ -1,5 +1,115 @@
-.square {
-  width: 50px;
+@font-face {
+  font-family: "Roboto-Regular";
+  src: url("/assets/fonts/Roboto-Regular.woff") format("woff");
+}
+body {
+  background-color: rgb(69, 52, 191);
+}
+
+.navbar {
+  background-color: rgb(102, 59, 217);
+  height: 44px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+}
+.navbar .divider {
+  background-color: rgb(69, 52, 191);
+  margin: 0 -15px;
+  border: solid 2px rgb(69, 52, 191);
+  height: 70%;
+}
+.navbar a {
+  color: white;
+  text-decoration: none;
+  height: 44px;
+  font-family: "Roboto-Regular";
+  text-align: center;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+.navbar a:hover {
+  border-bottom: solid 3px white;
+  transition: all 0.1s ease-in-out 0s;
+}
+.navbar a .logo {
+  width: 35px;
+  height: 35px;
+}
+.navbar a .patreon {
+  width: 120px;
+  margin-left: 10px;
+}
+.navbar a .patreon:hover {
+  border-bottom: solid 3px rgb(102, 59, 217);
+}
+.navbar a .settings {
+  width: 45px;
+  height: 45px;
+}
+
+.infos {
+  color: white;
+  font-family: "Roboto-Regular";
+  margin-top: 15%;
+  margin-left: 10%;
+  display: flex;
+  flex-direction: column;
+  width: 100vw;
+  height: 500px;
+  background-image: url("/assets/images/hero-main.png");
+  background-size: 50%;
+  background-position: 75% 5%;
+  background-repeat: no-repeat;
+}
+.infos h1 {
+  font-size: 50px;
+}
+.infos h2 {
+  font-size: medium;
+  font-weight: 50;
+}
+.infos .dowload-btn {
+  width: 225px;
   height: 50px;
-  background-color: red;
+  border-radius: 25px;
+  font-family: "Roboto-Regular";
+  font-size: larger;
+  font-weight: bolder;
+  color: black;
+  display: flex;
+  align-items: center;
+  background-color: white;
+  border: none;
+  justify-content: space-around;
+}
+.infos .dowload-btn .os {
+  width: 25px;
+  height: 25px;
+  margin: 0 5px;
+}
+.infos .dowload-btn .arch {
+  width: 55px;
+  height: 30px;
+  background-color: #1ABC9C;
+  border-radius: 25px;
+  color: white;
+  text-align: center;
+  margin: 0 5px;
+  padding: 5px 8px 0 8px;
+}
+.infos .dowload-btn:hover {
+  background-color: #1ABC9C;
+  color: white;
+  transition: background-color 500ms;
+}
+.infos .dowload-btn:hover .arch {
+  background-color: white;
+  color: #1ABC9C;
+  transition: background-color 50ms;
 }/*# sourceMappingURL=styles.css.map */

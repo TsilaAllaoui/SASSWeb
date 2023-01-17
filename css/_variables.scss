@@ -1,27 +1,3 @@
-$colors:
-(
-    "red": #FF0000,
-    "green": #00FF00,
-    "blue": #0000FF
-);
-
-$sizes:
-(
-    "xs": 15%,
-    "sm": 25%,
-    "md": 50%,
-    "lg": 75%,
-    "xl": 100%
-);
-
-$positions:
-(
-    "l": left,
-    "r": right,
-    "t": top,
-    "b": bottom
-);
-
-
-$border-size: 3px;
-$border-radius: 5px;
+$primary: rgb(102, 59, 217);
+$darkerPrimary: rgb(69, 52, 191);
+$highgreen: #1ABC9C;
