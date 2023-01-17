@@ -291,4 +291,59 @@ body {
   height: 5px;
   border-radius: 15px;
   background: linear-gradient(to right, #625FDA, rgb(69, 52, 191));
+}
+
+.community-section {
+  background-color: rgb(69, 52, 191);
+  background-image: url("/assets/images/hero-discord.png");
+  background-size: 25%;
+  background-repeat: no-repeat;
+  background-position: 30% 50%;
+  display: flex;
+  flex-direction: column;
+  height: 600px;
+}
+.community-section .community-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  margin-top: 10%;
+  margin-left: 57%;
+  color: white;
+  font-family: "Roboto-Regular";
+}
+.community-section .community-text h1 {
+  font-size: 50px;
+  font-weight: bold;
+}
+.community-section .community-text p {
+  width: 450px;
+  text-align: start;
+  margin-left: 0;
+  font-size: 17px;
+}
+.community-section .community-text .Vdivider {
+  width: 60px;
+  height: 5px;
+  border-radius: 15px;
+  background: white;
+}
+.community-section .join {
+  background-color: white;
+  border-radius: 25px;
+  width: 200px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  padding: 0 20px;
+}
+.community-section .join .discord-logo {
+  width: 25px;
+  height: 25px;
+  margin-right: 15px;
+}
+.community-section .join p {
+  color: black;
+  font-weight: bold;
+  font-size: 18px;
 }/*# sourceMappingURL=styles.css.map */

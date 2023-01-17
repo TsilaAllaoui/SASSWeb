@@ -335,3 +335,73 @@ body
     }   
 }
 
+.community-section
+{
+    background-color: $darkerPrimary;
+    background-image: url("/assets/images/hero-discord.png");
+    background-size: 25%;
+    background-repeat: no-repeat;
+    background-position: 30% 50%;
+    display: flex;
+    flex-direction: column;
+    height: 600px;
+
+    .community-text
+    {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        margin-top: 10%;
+        margin-left: 57%;
+        color: white;
+        font-family: "Roboto-Regular";
+        
+        h1
+        {
+            font-size: 50px;
+            font-weight: bold;
+        }
+        
+        p
+        {
+            width: 450px;
+            text-align: start;
+            margin-left: 0;
+            font-size: 17px;
+        }
+
+        .Vdivider
+        {
+            width: 60px;
+            height: 5px;
+            border-radius: 15px;
+            background: white;
+        }  
+    }
+
+    .join
+    {
+        background-color: white;
+        border-radius: 25px;
+        width: 200px;
+        height: 50px;
+        display: flex;
+        align-items: center;
+        padding: 0 20px;
+
+        .discord-logo
+        {
+            width: 25px;
+            height: 25px;
+            margin-right: 15px;
+        }
+
+        p
+        {
+            color: black;
+            font-weight: bold;
+            font-size: 18px;
+        }
+    }
+}
+
